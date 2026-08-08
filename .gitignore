@@ -1,0 +1,15 @@
+# Compiled C programs
+*.exe
+*.out
+*.o
+*.obj
+
+# VS Code
+.vscode/
+
+# Temporary Code Runner files
+tempCodeRunnerFile.c
+tempCodeRunnerFile.cpp
+
+# Other temporary files
+*.tmp
