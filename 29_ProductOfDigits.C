@@ -1,27 +1,14 @@
 #include <stdio.h>
-
 int main()
-
 {
-
-    int n, sum = 0;
-
+    int n, product = 1;
     printf("Input a number: ");
-
     scanf("%d", &n);
-
     while(n != 0)
-
     {
-
-        sum = sum + n % 10;
-
+        product = product * (n % 10);
         n = n / 10;
-
     }
-
-    printf("Sum of digits: %d", sum);
-
+    printf("Product of digits: %d", product);
     return 0;
-
 }
